@@ -2,10 +2,8 @@ import HeroSection from "./components/Hero";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-r from-gray-900 to-gray-700">
-      <div className="container mx-auto px-12 py-4">
-        <HeroSection />
-      </div>
-    </main>
+    <div>
+      <HeroSection />
+    </div>
   );
 }
