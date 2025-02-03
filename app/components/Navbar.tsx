@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="bg-gray-800 shadow-md p-4 flex justify-between items-center fixed w-full top-0 z-10">
-      <h1 className="text-3xl font-extrabold text-white">Amna's Portfolio</h1>
+      <h1 className="text-3xl font-extrabold text-white">
+        Amna&apos;s Portfolio
+      </h1>
       <div className="space-x-6">
         <Link
           href="/"
